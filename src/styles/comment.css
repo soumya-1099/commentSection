@@ -1,0 +1,51 @@
+.container {
+    padding: 3rem;
+    margin: 3rem auto;
+    background: #ffffff;
+    max-width: 768px;
+  }
+  .title {
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    font-weight: 700;
+  }
+  .inputField{
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    
+  }
+  .buttonAdd,
+  .buttonEdit,
+  .buttonReply,
+  .buttonSave {
+    background: #2663eb;
+    padding: 12px 10px;
+    color: #ffffff;
+    border-radius: 4px;
+    border-style: none;
+    font-size: 14px;
+    width: 110px;
+    cursor: pointer;
+  }
+  
+  .buttonReply {
+    background: #85d1f4;
+  }
+  .buttonEdit {
+    background: #e6a749;
+  }
+  .buttonSave {
+    background: #3c9174;
+  }
+  
+  @media (min-width: 320px) and (max-width: 768px){
+      .container{
+          margin: 1rem;
+          padding: 1rem;
+      }
+  }
